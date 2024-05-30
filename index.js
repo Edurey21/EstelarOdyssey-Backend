@@ -42,6 +42,11 @@ const writeSuggestions = (suggestions) => {
   }
 };
 
+// Ruta de bienvenida para comprobar que el servidor está funcionando
+app.get('/', (req, res) => {
+  res.send('Bienvenido a Estelar Odyssey Backend');
+});
+
 // Route to get suggestions
 app.get('/api/suggestions', (req, res) => {
   const suggestions = readSuggestions();
@@ -63,6 +68,6 @@ app.post('/api/suggestions', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`Server is running on port ${PORT}`);
 });
 
