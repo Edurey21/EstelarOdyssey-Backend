@@ -1,0 +1,47 @@
+[
+  {
+    "nombre": "Eduardo",
+    "apellido": "Avila",
+    "email": "avila_milanes_eduardo@hotmail.com",
+    "planeta": "Cubito",
+    "nave": "Cubik",
+    "mision": "conseguir cobos",
+    "recursos": "Cubos"
+  },
+  {
+    "nombre": "Hugo",
+    "apellido": "Castañeda",
+    "email": "hugocesarch890@gmail.com",
+    "planeta": "Cilindrio",
+    "nave": "Cili",
+    "mision": "Explotar cilindros",
+    "recursos": "Gas"
+  },
+  {
+    "nombre": "Angie",
+    "apellido": "Celestino",
+    "email": "20460159@colima.tecnm.mx",
+    "planeta": "Planeta de Lava",
+    "nave": "Nave resistente a la lava",
+    "mision": "Rescatar a los aliens de agua",
+    "recursos": "Armas de Lava"
+  },
+  {
+    "nombre": "luis",
+    "apellido": "iglesias",
+    "email": "tecoman@gmail.com",
+    "planeta": "tierra",
+    "nave": "Cubik",
+    "mision": "conseguir cubos",
+    "recursos": "Gas"
+  },
+  {
+    "nombre": "Eduardo",
+    "apellido": "Avila",
+    "email": "avila_milanes_eduardo@hotmail.com",
+    "planeta": "Cubito",
+    "nave": "Cubik",
+    "mision": "conseguir cubos",
+    "recursos": "Cubos"
+  }
+]
