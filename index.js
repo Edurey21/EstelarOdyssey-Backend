@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 // Configuración de CORS para permitir solicitudes desde tu frontend
 const corsOptions = {
   origin: 'https://estelar-odyssey-frontend.vercel.app', // Reemplaza con la URL de tu frontend
-  optionsSuccessStatus: 200
+  optionsSuccessStatus: 200,
 };
 
 app.use(cors(corsOptions));
@@ -69,4 +69,6 @@ app.post('/api/suggestions', (req, res) => {
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
+
+  
 });
