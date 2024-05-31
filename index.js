@@ -5,15 +5,9 @@ const fs = require('fs');
 const path = require('path');
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = 5000;
 
-// Configuración de CORS para permitir solicitudes desde tu frontend
-const corsOptions = {
-  origin: 'https://estelar-odyssey-frontend.vercel.app', // Reemplaza con la URL de tu frontend
-  optionsSuccessStatus: 200,
-};
-
-app.use(cors(corsOptions));
+app.use(cors());
 app.use(bodyParser.json());
 
 const dataFilePath = path.join(__dirname, 'data', 'suggestions.json');
@@ -42,11 +36,6 @@ const writeSuggestions = (suggestions) => {
   }
 };
 
-// Ruta de bienvenida para comprobar que el servidor está funcionando
-app.get('/', (req, res) => {
-  res.send('Bienvenido a Estelar Odyssey Backend');
-});
-
 // Route to get suggestions
 app.get('/api/suggestions', (req, res) => {
   const suggestions = readSuggestions();
@@ -68,5 +57,5 @@ app.post('/api/suggestions', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+  console.log(`Server is running on http://localhost:${PORT}`);
 });
