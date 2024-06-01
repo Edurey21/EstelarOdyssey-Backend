@@ -43,5 +43,32 @@
     "nave": "Cubik",
     "mision": "conseguir cubos",
     "recursos": "Cubos"
+  },
+  {
+    "nombre": "Lorena",
+    "apellido": "Milanes",
+    "email": "lore@gmail.com",
+    "planeta": "Saturno",
+    "nave": "Nodriza",
+    "mision": "Batalla con jefe ",
+    "recursos": "Materiales para mejorar al astronauta"
+  },
+  {
+    "nombre": "Aaron",
+    "apellido": "Milanes",
+    "email": "20460158@colima.tecnm.mx",
+    "planeta": "Tierra",
+    "nave": "Nave a prueba de balas",
+    "mision": "Conseguir mejor armadura",
+    "recursos": "Tela para la armadura"
+  },
+  {
+    "nombre": "Eduardo",
+    "apellido": "Avila Milanes",
+    "email": "avila_milanes_eduardo@hotmail.com",
+    "planeta": "Planeta de Lava",
+    "nave": "Modelo TSX con motor QUAR",
+    "mision": "Batalla con jefe ",
+    "recursos": "Materiales para mejorar al astronauta"
   }
 ]
